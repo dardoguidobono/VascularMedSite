@@ -58,7 +58,7 @@ const HeroSection = () => {
           <div ref={trustIndicatorsRef} className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10">
             <div className={`flex items-center space-x-4 fade-in ${trustIndicatorsInView ? 'visible' : ''}`}>
               <div className="bg-primary bg-opacity-10 rounded-full p-3">
-                <span className="material-icons text-primary text-2xl">medical_services</span>
+                <span className="material-icons text-white text-2xl">medical_services</span>
               </div>
               <div>
                 <h3 className="font-heading font-semibold text-neutral-900">Experiencia Médica</h3>
@@ -68,7 +68,7 @@ const HeroSection = () => {
             
             <div className={`flex items-center space-x-4 fade-in ${trustIndicatorsInView ? 'visible' : ''}`} style={{transitionDelay: '0.2s'}}>
               <div className="bg-primary bg-opacity-10 rounded-full p-3">
-                <span className="material-icons text-primary text-2xl">verified</span>
+                <span className="material-icons text-white text-2xl">verified</span>
               </div>
               <div>
                 <h3 className="font-heading font-semibold text-neutral-900">Calidad Certificada</h3>
@@ -78,7 +78,7 @@ const HeroSection = () => {
             
             <div className={`flex items-center space-x-4 fade-in ${trustIndicatorsInView ? 'visible' : ''}`} style={{transitionDelay: '0.4s'}}>
               <div className="bg-primary bg-opacity-10 rounded-full p-3">
-                <span className="material-icons text-primary text-2xl">support_agent</span>
+                <span className="material-icons text-white text-2xl">support_agent</span>
               </div>
               <div>
                 <h3 className="font-heading font-semibold text-neutral-900">Soporte Clínico</h3>
