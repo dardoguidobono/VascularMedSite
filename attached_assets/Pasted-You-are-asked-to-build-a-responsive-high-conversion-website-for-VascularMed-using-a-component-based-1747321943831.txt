@@ -1,0 +1,91 @@
+You are asked to build a responsive, high-conversion website for VascularMed using a component-based, atomic-design architecture. The solution must meet the following requirements:
+
+1. Architecture:
+- Component-based architecture following atomic design principles.
+- Semantic HTML5 markup with ARIA attributes for WCAG 2.1 AA accessibility.
+- Clear separation of concerns (presentation / logic / data).
+- Asset optimization: lazy-load all below-the-fold images.
+- Configure cache-control headers and leverage browser caching.
+
+2. Frontend Stack:
+- Pure valid HTML and CSS and JavaScript only.
+- Progressive enhancement for graceful degradation.
+- Critical-CSS path rendering for above-the-fold.
+- Mobile-first breakpoints at 375px, 768px, 1024px, 1440px.
+
+3. Performance:
+- Lighthouse performance score ≥ 90.
+- Code-splitting via dynamic imports (route-based chunking).
+- Core Web Vitals targets:  
+  • LCP < 2.5s  
+  • FID < 100ms  
+  • CLS < 0.1  
+- Resource hints (preconnect, prefetch, preload).
+- Aim for TTFB < 200ms where possible.
+
+4. Conversion:
+- Visual hierarchy with F-pattern or Z-pattern flows.
+- Primary CTAs: ≥ 60px touch target, 3:1 contrast.
+- Action-oriented microcopy next to inputs.
+- Inline form validation with real-time feedback.
+- Social proof components with quantitative metrics.
+- Scroll-triggered animations via Intersection Observer.
+
+5. Analytics:
+- Event-based tracking for all interactions.
+- Conversion funnel tracking (micro & macro).
+- UTM parameter handling for marketing attribution.
+- Cross-domain tracking as needed.
+- Enhanced e-commerce tracking for product interactions.
+
+6. Security:
+- Content Security Policy headers.
+- Strict CORS policies.
+- Rate limiting on form submissions.
+- Sanitize and validate all user inputs.
+- CSRF protection on forms.
+
+7. Technical SEO:
+- JSON-LD structured data for relevant schemas.
+- Auto-generated sitemap.xml with `<lastmod>`.
+- Canonical URLs and proper meta tags.
+- robots.txt with crawl directives.
+- Semantic heading hierarchy (h1–h6).
+
+8. Deployment:
+- Environment variables separation.
+- CI/CD pipeline with pre-commit hooks.
+- Build optimization with tree-shaking.
+- Error logging and monitoring.
+- Redirects for legacy URLs.
+
+9. Deliverables:
+- Clean, documented source code with JSDoc where needed.
+- README with setup instructions and architecture decisions.
+- Performance report with Lighthouse scores.
+- Mobile & desktop wireframes annotated for conversion.
+- Visual diagram of responsive breakpoints.
+
+——
+
+CLIENT DETAILS (VascularMed):
+Mission: “Proveer soluciones biomédicas de calidad… centrándonos en necesidades reales de médicos y pacientes.”  
+Vision: “Ser referentes en la distribución de dispositivos biomédicos… confianza, precisión y calidad.”  
+Values:  
+  1. Innovación con propósito  
+  2. Excelencia científica  
+  3. Humanización en la tecnología  
+  4. Integridad  
+  5. Trabajo en equipo  
+  6. Sostenibilidad  
+History: Profesionales con década de experiencia en comercialización y soporte clínico, fundan VascularMed para ofrecer un servicio integral y humano.  
+Products: Cardiología Intervencionista (sin marca por ahora).  
+Contacto:  
+  • Tel: +54 9 3425 66-1897 (WhatsApp)  
+  • Email: cotizaciones@vascularmed.com.ar  
+  • Dirección: Necochea 8961, Santa Fe, Argentina  
+  • Horario: Lun–Vie 8:00–17:00  
+
+Contact Form Fields: Nombre; Email; Teléfono; Mensaje.
+
+Generate the complete website solution—with code structure, styled-components themes, performance optimizations, analytics stubs, security headers, SEO markup, CI/CD pipeline definitions, and all required deliverables—emphasizing measurable conversion metrics and scalable architecture.```
