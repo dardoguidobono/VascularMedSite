@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vascularmed.com.ar/sitemap.xml
+
+# Prevent indexing of sensitive directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
