@@ -299,7 +299,7 @@ const ContactSection = () => {
                   title="Teléfono"
                   content={
                     <>
-                      <a href="tel:+5493425661897" className="text-primary hover:underline">+54 9 3425 66-1897</a>
+                      <a href="https://wa.me/5493425661897" className="text-primary hover:underline">+54 9 3425 66-1897</a>
                       <p className="text-neutral-600 text-sm">(También disponible en WhatsApp)</p>
                     </>
                   }
