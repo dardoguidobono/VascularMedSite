@@ -40,8 +40,8 @@ const TestimonialsSection = () => {
               style={{ transitionDelay: `${index * 0.1}s` }}
             >
               <div className="flex flex-col items-center justify-center text-center">
-                <div className="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
-                  <span className="material-icons text-primary text-2xl">business</span>
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-4">
+                  <span className="material-icons text-white text-2xl">business</span>
                 </div>
                 <h4 className="font-heading font-semibold text-neutral-900 text-lg">{partner}</h4>
               </div>

@@ -59,7 +59,7 @@ const ProductsSection = () => {
         <div ref={productGridRef} className="text-center">
           <div className={`fade-in ${productGridInView ? 'visible' : ''}`}>
             <img 
-              src="https://images.unsplash.com/photo-1555768048-fbcda4e22eb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&h=600"
+              src="https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&h=600"
               alt="Corazón con arterias y ritmo cardíaco" 
               className="rounded-lg shadow-lg mx-auto max-w-full h-auto mb-8"
               loading="lazy"
