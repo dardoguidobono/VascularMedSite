@@ -8,7 +8,7 @@ const HeroSection = () => {
   });
   
   const handleCTAClick = () => {
-    trackEvent("User Interaction", "trackHeroCTA", "Ver Productos");
+    trackEvent("User Interaction", "trackHeroCTA", "Productos");
   };
   
   return (
@@ -31,7 +31,7 @@ const HeroSection = () => {
             Soluciones biomédicas <span className="text-accent">de calidad</span> para profesionales de la salud
           </h1>
           <p className="text-lg md:text-xl mb-8 text-white text-opacity-90">
-            En VascularMed nos centramos en las necesidades reales de médicos y pacientes, ofreciendo dispositivos innovadores para cardiología intervencionista.
+            En VascularMed nos centramos en las necesidades reales de médicos y pacientes, ofreciendo dispositivos innovadores.
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <a 
@@ -39,7 +39,7 @@ const HeroSection = () => {
               className="bg-accent text-white py-3 px-8 rounded-full font-heading font-semibold text-lg hover:bg-accent-light transition-colors inline-flex items-center justify-center min-h-[60px]"
               onClick={handleCTAClick}
             >
-              Ver Productos
+              Productos
               <span className="material-icons ml-2">arrow_forward</span>
             </a>
             <a 
