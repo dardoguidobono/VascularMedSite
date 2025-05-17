@@ -21,7 +21,7 @@ const AboutSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div ref={headingRef} className={`text-center mb-12 md:mb-16 fade-in ${headingInView ? 'visible' : ''}`}>
           <h2 className="font-heading font-bold text-2xl md:text-3xl lg:text-4xl text-neutral-900 mb-4">Sobre VascularMed</h2>
-          <p className="text-neutral-600 max-w-3xl mx-auto text-lg">Un equipo de profesionales dedicados a mejorar la atención médica a través de soluciones biomédicas innovadoras y centradas en el paciente.</p>
+          <p className="text-neutral-600 max-w-3xl mx-auto text-lg">Somos un equipo de profesionales dedicados a mejorar la atención médica a través de soluciones biomédicas innovadoras y centradas en el paciente.</p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
@@ -93,8 +93,8 @@ const AboutSection = () => {
           
           <div ref={imageRef} className={`order-1 lg:order-2 fade-in ${imageInView ? 'visible' : ''}`}>
             <img 
-              src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-              alt="Equipo de profesionales médicos de VascularMed" 
+              src="https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+              alt="Médicos trabajando en sala de hemodinamia" 
               className="rounded-lg shadow-lg w-full h-auto"
               loading="lazy"
               width="800"
@@ -103,11 +103,11 @@ const AboutSection = () => {
             
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="bg-neutral-50 p-5 rounded-lg shadow-sm text-center">
-                <h5 className="font-heading font-bold text-3xl text-primary mb-2">10+</h5>
+                <h5 className="font-heading font-bold text-3xl text-primary mb-2">+ 10</h5>
                 <p className="text-neutral-700 text-sm">Años de experiencia en el sector</p>
               </div>
               <div className="bg-neutral-50 p-5 rounded-lg shadow-sm text-center">
-                <h5 className="font-heading font-bold text-3xl text-primary mb-2">200+</h5>
+                <h5 className="font-heading font-bold text-3xl text-primary mb-2">+ 100</h5>
                 <p className="text-neutral-700 text-sm">Médicos confían en nuestras soluciones</p>
               </div>
             </div>
