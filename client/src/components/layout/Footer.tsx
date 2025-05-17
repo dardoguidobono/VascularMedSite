@@ -26,19 +26,19 @@ const Footer = () => {
                 type="language" 
                 onClick={() => handleSocialClick("Website")} 
                 ariaLabel="Website" 
-                className="text-neutral-400 hover:text-white transition-colors" 
+                bgColor="bg-white"
               />
               <SocialIcon 
-                type="linkedin" 
+                type="business" 
                 onClick={() => handleSocialClick("LinkedIn")} 
                 ariaLabel="LinkedIn" 
-                className="text-neutral-400 hover:text-white transition-colors" 
+                bgColor="bg-white"
               />
               <SocialIcon 
-                type="whatsapp" 
+                type="chat" 
                 onClick={() => handleSocialClick("WhatsApp")} 
                 ariaLabel="WhatsApp" 
-                className="text-neutral-400 hover:text-white transition-colors" 
+                bgColor="bg-white"
               />
             </div>
           </div>

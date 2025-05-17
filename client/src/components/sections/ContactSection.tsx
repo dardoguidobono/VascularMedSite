@@ -322,13 +322,13 @@ const ContactSection = () => {
                     onClick={() => handleSocialClick("Website")} 
                   />
                   <SocialIcon 
-                    type="linkedin" 
+                    type="business" 
                     bgColor="bg-neutral-200" 
                     ariaLabel="LinkedIn" 
                     onClick={() => handleSocialClick("LinkedIn")} 
                   />
                   <SocialIcon 
-                    type="whatsapp" 
+                    type="chat" 
                     bgColor="bg-neutral-200" 
                     ariaLabel="WhatsApp" 
                     onClick={() => handleSocialClick("WhatsApp")} 

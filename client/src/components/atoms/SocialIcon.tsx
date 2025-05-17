@@ -12,6 +12,7 @@ const SocialIcon = ({ type, onClick, className = "", ariaLabel, bgColor }: Socia
     className;
   
   return (
+    <div>
     <a 
       href="#" 
       className={baseClasses} 
@@ -23,6 +24,7 @@ const SocialIcon = ({ type, onClick, className = "", ariaLabel, bgColor }: Socia
     >
       <span className="material-icons text-xl">{type}</span>
     </a>
+    </div>
   );
 };
 

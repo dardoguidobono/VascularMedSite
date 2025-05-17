@@ -10,7 +10,7 @@ const ContactInfo = ({ icon, title, content }: ContactInfoProps) => {
   return (
     <div className="flex items-start space-x-4">
       <div className="bg-primary bg-opacity-10 rounded-full p-3 mt-1">
-        <span className="material-icons text-primary">{icon}</span>
+        <span className="material-icons text-white">{icon}</span>
       </div>
       <div>
         <h4 className="font-heading font-medium text-neutral-800 mb-1">{title}</h4>
