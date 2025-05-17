@@ -52,31 +52,24 @@ const ProductsSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div ref={headingRef} className={`text-center mb-12 md:mb-16 fade-in ${headingInView ? 'visible' : ''}`}>
           <h2 className="font-heading font-bold text-2xl md:text-3xl lg:text-4xl text-neutral-900 mb-4">Nuestros Productos</h2>
-          <p className="text-neutral-600 max-w-3xl mx-auto text-lg">Ofrecemos soluciones innovadoras de cardiología intervencionista con la más alta calidad y respaldo científico.</p>
+          <p className="text-neutral-600 max-w-3xl mx-auto text-lg">Ofrecemos soluciones innovadoras con la más alta calidad y respaldo científico.</p>
+          <p className="text-neutral-600 max-w-3xl mx-auto text-lg mt-4">Comercializamos entre otros, dispositivos para cardiología intervencionista.</p>
         </div>
         
-        <div ref={productGridRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {products.map((product, index) => (
-            <div 
-              key={product.id} 
-              className={`fade-in ${productGridInView ? 'visible' : ''}`} 
-              style={{ transitionDelay: `${index * 0.2}s` }}
-            >
-              <ProductCard product={product} />
-            </div>
-          ))}
+        <div ref={productGridRef} className="text-center">
+          <div className={`fade-in ${productGridInView ? 'visible' : ''}`}>
+            <img 
+              src="https://images.unsplash.com/photo-1555768048-fbcda4e22eb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&h=600"
+              alt="Corazón con arterias y ritmo cardíaco" 
+              className="rounded-lg shadow-lg mx-auto max-w-full h-auto mb-8"
+              loading="lazy"
+              width="1000"
+              height="600"
+            />
+          </div>
         </div>
         
-        <div ref={ctaRef} className={`text-center mt-12 fade-in ${ctaInView ? 'visible' : ''}`}>
-          <a 
-            href="#contacto" 
-            className="bg-primary text-white py-3 px-8 rounded-full font-heading font-semibold text-lg hover:bg-primary-dark transition-colors inline-flex items-center justify-center min-h-[60px]"
-            onClick={handleCtaClick}
-          >
-            Solicitar catálogo completo
-            <span className="material-icons ml-2">menu_book</span>
-          </a>
-        </div>
+
       </div>
     </section>
   );
